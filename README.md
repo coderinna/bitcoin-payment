@@ -1,13 +1,11 @@
-# Betty Bitcoin-payment
+# Bitcoin-payment
 
-  <img src="images/image-1.png" alt="Bitcoin payment" width="150" style="vertical-align: middle;">
-
-**Betty** Bitcoin Payment on Bitcoin-maksupalvelu, joka on rakennettu **Node.js:n** ja **Reactin** avulla.
+Bitcoin Payment on Bitcoin-maksupalvelu, joka on rakennettu **Node.js:n** ja **Reactin** avulla.
 
 Projekti tarjoaa taustajärjestelmän API Bitcoin-maksupyyntöjen luomiseen ja hallintaan.
 React-asiakasohjelmaa käytetään maksupalvelun **käyttöliittymänä**.
 
-### 💳 Maksaminen
+### Maksaminen
 
 Palvelun avulla voidaan:
 
@@ -47,7 +45,7 @@ Palvelun avulla voidaan:
      </ul>
      </ul>
 
- 🛠️ Teknologiat
+Teknologiat
 * Node.js - backend
 * React - client
 * REST - API
@@ -56,7 +54,7 @@ Palvelun avulla voidaan:
 
 ![alt text](images/imag.png)
 
-## 🔌 Payment API
+## Payment API
 
 Backendin REST API tarjoaa rajapinnan maksupyyntöjen luomiseen ja
 yksittäisten maksujen hakemiseen
@@ -78,7 +76,7 @@ Find payment
 Return payment
 ```
 
-## 🏗️ Arkkitehtuuri
+## Arkkitehtuuri
 Lopputulos pystytään tarkistamaan Bitcoin-verkosta:
 
 ```text
@@ -114,7 +112,7 @@ Voidaan käyttää Bitcoin-infrastruktuurin APIa, jolloin meidän backendin teht
 
 ... tai vaihtoehtoisesti **omaa** Bitcoin-nodeen.
 
-### 🔗 Oma Bitcoin-node
+### Oma Bitcoin-node
 ```text
 Bitcoin Network
        │
